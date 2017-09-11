@@ -55,16 +55,10 @@ public class Translater {
         int len = russianText.length();
         for(int i = 0; i<len; i++){
             String symbol = russianText.substring(i, i+1);
-            transcriptionText.append(translateSymbol(symbol));
+            String symbolTranslate = dictTranslate.get(symbol);
+            transcriptionText.append(symbolTranslate);
         }
         return transcriptionText.toString();
     }
 
-    private String translateSymbol(String symbol){
-        if(dictTranslate.containsKey(symbol)) {
-            return dictTranslate.get(symbol);
-        } else {
-            return symbol;
-        }
-    }
 }
