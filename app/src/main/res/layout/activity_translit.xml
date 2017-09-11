@@ -10,9 +10,9 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
-        android:id="@+id/ll_main_top">
+        android:id="@+id/ll_translit_top">
         <EditText
-            android:id="@+id/et_main_top"
+            android:id="@+id/et_translit_top"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -20,7 +20,7 @@
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/btn_main_translate"
+            android:id="@+id/btn_translit_translate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -33,9 +33,9 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1"
-        android:id="@+id/ll_main_botton">
+        android:id="@+id/ll_translit_botton">
         <EditText
-            android:id="@+id/et_main_botton"
+            android:id="@+id/et_translit_botton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"

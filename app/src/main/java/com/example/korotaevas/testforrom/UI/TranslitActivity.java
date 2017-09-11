@@ -19,8 +19,8 @@ public class TranslitActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_translit);
 
-        etTop = (EditText)findViewById(R.id.et_main_top);
-        etBotton = (EditText)findViewById(R.id.et_main_botton);
+        etTop = (EditText)findViewById(R.id.et_translit_top);
+        etBotton = (EditText)findViewById(R.id.et_translit_botton);
     }
 
     public void Translate(View view){
